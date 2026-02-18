@@ -1,61 +1,152 @@
-# Sales Call Intelligence V2
+# 📞 Sales Call Analysis
 
-## Prerequisites
+Sales Call Analysis is a full-stack intelligent analytics platform designed to evaluate sales call conversations and extract actionable insights.  
+The system processes call data using Natural Language Processing (NLP) techniques to analyze sentiment, identify keywords, and measure communication effectiveness.
 
-- Python 3.8+
-- Node.js & npm (or bun)
+---
 
-## Getting Started
+## 🚀 Project Overview
 
-### Backend
+This application helps sales teams:
 
-The backend is a FastAPI application.
+- Analyze customer conversations
+- Evaluate call performance
+- Identify improvement areas
+- Extract important keywords
+- Generate sentiment insights
+- Make data-driven decisions
 
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
+---
 
-2. Create and activate a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   # Windows
-   .\venv\Scripts\activate
-   # Linux/Mac
-   source venv/bin/activate
-   ```
+## 🧠 Core Features
 
-3. Install requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
+- 📊 Sentiment Analysis of sales conversations
+- 🔍 Keyword and phrase extraction
+- 📈 Dashboard visualization of call metrics
+- 📁 Structured backend API integration
+- 🗄 SQLite database for data storage
+- 🧩 Modular NLP utility functions
 
-4. Run the server:
-   ```bash
-   uvicorn app.main:app --reload
-   ```
-   The API will be available at http://localhost:8000.
+---
+
+## 🏗 Tech Stack
 
 ### Frontend
+- React (Vite)
+- TypeScript
+- Modern UI Components
 
-The frontend is a React + Vite application.
+### Backend
+- Python
+- FastAPI / Flask
+- SQLite Database
+- Custom NLP utilities
 
-1. Navigate to the ui directory:
-   ```bash
-   cd ui
-   ```
+---
 
-2. Install dependencies:
-   ```bash
-   npm install
-   # OR if using bun
-   bun install
-   ```
+## 📂 Project Structure
 
-3. Run the development server:
-   ```bash
-   npm run dev
-   # OR
-   bun run dev
-   ```
-   The UI will be available at http://localhost:5173 (or similar port shown in terminal).
+```
+salescallintelligence_v2/
+│
+├── backend/
+│   ├── app/
+│   ├── core/
+│   ├── utils/
+│   ├── main.py
+│   └── requirements.txt
+│
+├── ui/
+│   ├── src/
+│   ├── components/
+│   ├── public/
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/sirireddy818/sales-call-analysis.git
+cd sales-call-analysis
+```
+
+---
+
+### 2️⃣ Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+python main.py
+```
+
+Backend runs on:
+```
+http://localhost:8000
+```
+
+---
+
+### 3️⃣ Frontend Setup
+
+```bash
+cd ui
+npm install
+npm run dev
+```
+
+Frontend runs on:
+```
+http://localhost:5173
+```
+
+---
+
+## 📸 Screenshots
+
+Create a folder called `assets` and add your screenshots:
+
+```
+assets/dashboard.png
+assets/analysis.png
+```
+
+Then add images here like this:
+
+```markdown
+![Dashboard](assets/dashboard.png)
+![Analysis Result](assets/analysis.png)
+```
+
+---
+
+## 🎯 Use Case
+
+This system can be used by:
+
+- Sales teams for performance tracking
+- Managers for communication quality analysis
+- Startups building call intelligence tools
+- Customer success analytics platforms
+
+---
+
+## 🌟 Future Improvements
+
+- Real-time audio transcription integration
+- Cloud deployment
+- Advanced NLP models
+- User authentication & analytics dashboard upgrades
+
+---
+
+## 👩‍💻 Author
+
+**Julakanti Siri**  
+Computer Science Student  
+Passionate about Full-Stack Development & AI-Based Applications
